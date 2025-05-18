@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Page</title>
+    <style>
+        body
+        {
+            background-image:url('STD.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Us</h1>
+    <h2>Forms</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">MATCH:</label><br><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">TEAM NAME:</label><br><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">VENU:</label><br><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
